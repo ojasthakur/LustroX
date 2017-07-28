@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "595991862058",
+    "firebase_url": "https://lustro-5389c.firebaseio.com",
+    "project_id": "lustro-5389c",
+    "storage_bucket": "lustro-5389c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595991862058:android:85e0686bbebac2cc",
+        "android_client_info": {
+          "package_name": "com.example.ojas.lustro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595991862058-f37ttkccur18i9fmbeg6b1jut4odcjhi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-cnT2vcpFVpLXICprGEpUY1eL3uNq5_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

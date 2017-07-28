@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_initialize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ojas.lustro.UserInitializeActivity">
+
+    <TextView
+        android:text="Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:id="@+id/textViewMessage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textViewUserAge"
+        android:layout_alignLeft="@+id/editTextUserName"
+        android:layout_alignStart="@+id/editTextUserName"
+        android:id="@+id/spinnerAge"
+        android:layout_alignRight="@+id/buttonSave"
+        android:layout_alignEnd="@+id/buttonSave"
+        android:layout_width="10dp" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="99dp"
+        android:id="@+id/buttonSave"
+        android:onClick="onClickButtonSaveUserInformation"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerSex"
+        android:layout_alignTop="@+id/textViewUserSex"
+        android:layout_alignLeft="@+id/spinnerAge"
+        android:layout_alignStart="@+id/spinnerAge"
+        android:layout_alignRight="@+id/buttonSave"
+        android:layout_alignEnd="@+id/buttonSave" />
+
+    <TextView
+        android:text="Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:id="@+id/textViewUserAge"
+        android:layout_below="@+id/textViewMessage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/editTextUserName"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/textViewMessage"
+        android:layout_alignBottom="@+id/textViewMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:text="Sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewUserSex"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textViewUserAge"
+        android:layout_alignEnd="@+id/textViewUserAge" />
+</RelativeLayout>

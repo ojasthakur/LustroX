@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ojas.lustro.MainActivity">
+    <item
+        android:id="@+id/menu_main_np"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:title="New People" />
+    <item
+        android:id="@+id/menu_main_update"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Update" />
+    <item
+        android:id="@+id/menu_main_kd"
+        android:orderInCategory="102"
+        app:showAsAction="always"
+        android:title="Ongoing" />
+</menu>
